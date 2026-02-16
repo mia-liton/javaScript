@@ -1,5 +1,16 @@
-let a = 13;
-let b = 4;
+let a = 10;
+let b = 3;
 
-let remainder = a % b;
-console.log(remainder);
+console.log("a =", a, ", b =", b);
+console.log("Addition: a + b = ", a + b);
+console.log("Subtraction: a - b = ", a - b);
+console.log("Multiplication: a * b = ", a * b);
+console.log("Division: a / b = ", a / b);
+console.log("Remainder: a % b = ", a % b);
+console.log("Exponentiation: a ** b = ", a ** b);
+
+a++;
+console.log("Increment: a++ = ", a);
+
+b--;
+console.log("Decrement: b-- = ", b);
