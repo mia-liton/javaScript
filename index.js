@@ -1,7 +1,15 @@
-let a = 5;
-let b = 10;
+let str = "123";
 
-[a, b] = [b, a];
+// let num = Number(str);
+// console.log(num);
 
-console.log(a); 
-console.log(b); 
+// let num = parseInt(str);
+// console.log(num);
+
+let str2 = "123.45";
+let num2 = parseFloat(str2);
+
+console.log(num2);
+
+let num = +str;
+console.log(num);
