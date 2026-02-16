@@ -1,5 +1,26 @@
-let num = 5;
+let username = null;
 
-let result = (num % 2 === 0) ? "even" : "odd";
+let displayName = username ?? "Guest";
 
-console.log(result);
+// console.log(displayName);
+
+// let user = {
+//     name: "Liton",
+//     address: {
+//         city: "Dhaka",
+//         country: "Bangladesh"
+//     }
+// };
+
+// console.log(user.address?.city);
+// console.log(user.contact?.phone);
+
+
+let user = {
+    name: "Liton",
+    contact: null
+};
+
+let phone = user.contact?.phone ?? "Not available";
+console.log(phone);
+
