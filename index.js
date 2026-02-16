@@ -1,15 +1,21 @@
-let str = "123";
+let name = "Liton";
+let age = 25;
+let isStudent = true;
+let data;
+let empty = null;
+let person = {name: "Liton"};
+let numbers = [1,2,3,4,5];
+let greet = function(){};
+let id = Symbol("id");
+let bigNumber = 123n;
 
-// let num = Number(str);
-// console.log(num);
-
-// let num = parseInt(str);
-// console.log(num);
-
-let str2 = "123.45";
-let num2 = parseFloat(str2);
-
-console.log(num2);
-
-let num = +str;
-console.log(num);
+console.log(typeof name);
+console.log(typeof age);
+console.log(typeof isStudent);
+console.log(typeof data);
+console.log(typeof empty);
+console.log(typeof person);
+console.log(typeof numbers);
+console.log(typeof greet);
+console.log(typeof id);
+console.log(typeof bigNumber);
