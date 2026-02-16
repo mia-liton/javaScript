@@ -1,13 +1,7 @@
-let data;
+let a = 5;
+let b = 10;
 
-if (data === null) {
-  console.log("Variable is null");
-}
+[a, b] = [b, a];
 
-if (data === undefined) {
-  console.log("Variable is undefined");
-}
-
-if (data !== null && data !== undefined) {
-  console.log("Variable is defined");
-}
+console.log(a); 
+console.log(b); 
