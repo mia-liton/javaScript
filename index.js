@@ -1,21 +1,5 @@
-let name = "Liton";
-let age = 25;
-let isStudent = true;
-let data;
-let empty = null;
-let person = {name: "Liton"};
-let numbers = [1,2,3,4,5];
-let greet = function(){};
-let id = Symbol("id");
-let bigNumber = 123n;
+let a = 13;
+let b = 4;
 
-console.log(typeof name);
-console.log(typeof age);
-console.log(typeof isStudent);
-console.log(typeof data);
-console.log(typeof empty);
-console.log(typeof person);
-console.log(typeof numbers);
-console.log(typeof greet);
-console.log(typeof id);
-console.log(typeof bigNumber);
+let remainder = a % b;
+console.log(remainder);
